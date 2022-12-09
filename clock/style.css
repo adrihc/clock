@@ -1,0 +1,116 @@
+* {
+    margin: 100;
+    padding: 100;
+  }
+  @font-face {
+    font-family: "MC";
+    src: url('font/font-MC.ttf') format(openType); 
+    font-style: normal;
+    font-weight: normal;
+  }
+  h1{
+    font-family: 'MC' ;
+  }
+  html {
+    font-family: MC;
+    background-image: url(image/background.png);
+    
+  }
+
+.clockBackground{
+  position: absolute;
+  height: 150px;
+  width: 600px;
+  background-color: black;
+  border-radius: 26px 26px 26px 26px;
+  opacity: 0.4;
+}
+.clock{
+  font: MC;
+  position: relative;
+  left: 26%;
+  border: 15px solid black;
+  height: 150px;
+  width: 600px;
+  border-radius: 50px 50px 50px 50px;
+  box-shadow: inset 0 0 40px black;
+  
+}
+.clock p{
+  position: relative;
+  left: 95px;
+  bottom: 35px;
+  font-size: 70px;
+}
+
+.window{
+  position: relative;
+  margin: 0;
+  left: 30%;
+  top: 20px ;
+  height: 400px;
+  width: 496px;
+}
+
+.windowBackground{
+  position: absolute;
+  opacity: 0.7;
+  left: 413px;
+  top: 208px ;
+  background-color: rgb(255, 177, 112);
+  border-radius: 50px 50px 50px 50px;
+  height: 400px;
+  width: 495px;
+  box-shadow: 0px 0px 15px black; 
+}
+.tab button{
+  background-color: rgb(255, 153, 70);
+  border: none;
+  padding: 30px 49px;
+  text-shadow:  1px 1px 5px black;
+  box-shadow: 0px 1px rgb(206, 124, 57);
+}
+
+.tab button:hover{
+  background-color: rgb(206, 124, 57);
+  transition: 0.5s;
+}
+#left{
+  border-top-left-radius: 50px ;
+}
+
+#right{
+  border-top-right-radius: 50px ;
+}
+
+#alarm{
+  position: relative;
+  top: 40px;
+  left: 100px;
+  text-shadow:  1px 1px 5px black;
+}
+#alarm h1,#timer h1,#stopwatch h1{
+  font-size: 60px;
+}
+
+.content select,.content button,#timer select,#timer button,#stopwatch select, #stopwatch button{
+  border: 1px rgb(206, 124, 57);
+  border-radius: 10px 10px 10px;
+  background-color: rgb(241, 241, 241);
+}
+#timer{
+  position: relative;
+  top: 40px;
+  left: 100px;
+  text-shadow:  1px 1px 5px black;
+}
+#stopwatch{
+  position: relative;
+  top: 40px;
+  left: 50px;
+  text-shadow:  1px 1px 5px black;
+}
+.tabcontent {
+  display: none;
+  
+} 

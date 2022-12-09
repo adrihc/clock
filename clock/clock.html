@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Pràctica Clock</title>
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+  <link  rel="icon"   href="image/favicon.png" type="image/png" />
+</head>
+
+<body onload="startClock()">
+  <div class="clock">
+    <div class="clockBackground"></div>
+    <p id="clock"></p>
+    
+    <script src="clock.js"></script>
+    <nav class="controls">
+  </div>
+
+
+  <div class="windowBackground"></div>
+<div class="window">
+  <div class="tab">
+    <button class="tablinks" onclick="openClock(event, 'stopwatch')"id="left">Cronometro</button
+    ><button class="tablinks" onclick="openClock(event, 'alarm')">Alarma</button
+    ><button class="tablinks" onclick="openClock(event, 'timer')"id="right">Temporizador</button>
+  </div>
+
+
+  <div id="stopwatch" class="tabcontent">
+    <h1 class="stopwatch">00:00:00:00</h1>
+        <button onclick=startStopwatch()>Start</button>
+        <button onclick=stopStopwatch()>Stop</button>
+        <button onclick=restartStopwatch()>Restart</button>
+        <script src="stopwatch.js"></script>
+  </div>
+
+
+  <div id="alarm" class="tabcontent">
+    <h1 class="alarmTime">00:00:00</h1>
+    <div class="content">
+      <select class="selectHora">
+        <option value="Hora" selected disabled hidden class="hora">Hora</option>
+      </select>
+      <select class="selectMinuto">
+        <option value="Minutos" selected disabled hidden class="minuto">Minuto</option>
+      </select>
+      <select class="selectSegundo">
+        <option value="Segundos" selected disabled hidden class="segundo">Segundos</option>
+      </select>
+      <button onclick="setAlarma()" class="alarmButton">Fijar Alarma</button>
+      <script src="alarma.js"></script>
+    </div>
+  </div>
+
+  <div id="timer" class="tabcontent">
+    <h1 class="timerClass">00:00:00</h1>
+    <div>
+      <select class="timerHora">
+        <option value="Hora" selected disabled hidden class="horaDeTimer">Hora</option>
+      </select>
+      <select class="timerMinuto">
+        <option value="Minutos" selected disabled hidden class="minutoDeTimer">Minuto</option>
+      </select>
+      <select class="timerSegundo">
+        <option value="Segundos" selected disabled hidden class="segundoDeTimer">Segundos</option>
+      </select>
+      <button onclick="setTimer()" class="tButton">Start</button>
+      <script src="timer.js"></script>
+    </div>
+  </div>
+</div>
+
+  <script src="tabs.js"></script>
+</body>
+
+</html>
