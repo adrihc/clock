@@ -1,6 +1,6 @@
 # Clock - HTML
 ---
-[![preview](https://github.com/adrihc/clock/blob/main/clock/previewclock.png)(https://github.com/adrihc/clock/blob/main/clock/previewclock.png)
+[![preview](https://github.com/adrihc/clock/blob/main/clock/previewclock.png)](https://github.com/adrihc/clock/blob/main/clock/previewclock.png)
 
 _Esta página web es una template de un reloj._
 
