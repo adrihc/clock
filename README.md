@@ -2,7 +2,7 @@
 ---
 [![preview](https://github.com/adrihc/clock/blob/main/clock/previewclock.png)](https://github.com/adrihc/clock/blob/main/clock/previewclock.png)
 
-_Esta página web es una template de un reloj._
+_Esta página web ha sido realizada para integrar el funcionamento de un reloj y todas sus variantes a una página web utilizando JavaScript._
 
 ## Comenzando 🚀
 ---
@@ -14,7 +14,7 @@ _Para observar los archivos sólo debes descargar el archivo .zip en tu ordenado
 ---
 
 
-_Este proyecto está realizado con HTML, CSS puro y un poco de Javascript._
+_Este proyecto está realizado con HTML, CSS puro y Javascript._
 
 ### Live Demo...
 ---
